@@ -2,11 +2,13 @@
   "name": "bentelega_api",
   "version": "1.0.0",
   "scripts": {
+    "apis": "node server.js",	  
+    "api": "json-server db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "bentelega",
   "description": "",
   "devDependencies": {
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.4"
   }
 }
